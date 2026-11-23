@@ -1,0 +1,144 @@
+
+/* MRR University – accessible brand styling */
+.uni-home-promo{background:#183d30;color:#f5f0e8;padding:50px 0}
+.uni-home-promo-inner{display:flex;justify-content:space-between;align-items:center;gap:32px;flex-wrap:wrap}
+.uni-home-promo h2{color:#fff;font-size:clamp(1.7rem,3vw,2.6rem);margin:8px 0 14px}
+.uni-home-promo p{max-width:67ch;color:#e8ece4;line-height:1.7;margin:0}
+.uni-eyebrow{color:#c2a46d;font-weight:800;letter-spacing:.14em;font-size:.77rem;text-transform:uppercase}
+.uni-hero{background:linear-gradient(120deg,#112d24,#245a45);color:#fff;padding:clamp(65px,10vw,130px) 0 85px;position:relative;overflow:hidden}
+.uni-hero:after{content:'';position:absolute;width:460px;height:460px;border:1px solid rgba(255,255,255,.13);border-radius:50%;right:-110px;top:-160px;pointer-events:none;box-shadow:0 0 0 85px rgba(255,255,255,.025),0 0 0 170px rgba(255,255,255,.018)}
+.uni-hero .container{position:relative;z-index:1}
+.uni-hero h1{font-size:clamp(2.65rem,6.5vw,5.7rem);line-height:1.06;max-width:870px;margin:12px 0 26px;color:#fff}
+.uni-hero p{max-width:700px;font-size:1.1rem;line-height:1.7;color:#eef3ef}
+.uni-badges,.uni-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.uni-badges span{border:1px solid rgba(255,255,255,.28);border-radius:100px;padding:8px 14px;color:#f3f3ea;font-size:.83rem}
+.uni-note{background:#faf4e5;color:#523c15;border-left:5px solid #c2a46d;padding:18px 23px;border-radius:8px;line-height:1.65}
+.uni-section{padding:70px 0;background:#f5f0e8;color:#24392f}
+.uni-section:nth-child(even){background:#fff}
+.uni-section h2{font-size:clamp(1.7rem,3.5vw,2.8rem);color:#173f32;margin:9px 0 16px}
+.uni-section-desc{max-width:76ch;line-height:1.7}
+.uni-course-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:32px}
+.uni-course{border:1px solid #d8e0d9;background:#fff;padding:27px;border-radius:14px;display:flex;flex-direction:column;box-shadow:0 6px 24px rgba(13,46,31,.055)}
+.uni-course .uni-number{color:#668e7a;letter-spacing:.12em;font-size:.77rem;font-weight:800}
+.uni-course h3{color:#173f32;font-size:1.22rem;margin:12px 0}
+.uni-course p{line-height:1.6;flex:1;margin:0 0 17px}
+.uni-tag{display:inline-block;background:#e7efe9;color:#24553e;border-radius:100px;padding:5px 11px;font-size:.76rem;font-weight:700;align-self:flex-start;margin-bottom:15px}
+.uni-course a{font-weight:800;color:#183d30}
+.uni-track-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:30px}
+.uni-track{padding:30px;border-radius:16px;border:1px solid #d6ddd5;background:#fff}
+.uni-track h3{margin:8px 0 14px;color:#153b2c}
+.uni-track p,.uni-track li{line-height:1.7}
+.uni-track ul{padding-left:20px}
+.uni-form-panel{display:grid;grid-template-columns:1fr 1.15fr;gap:40px;background:#fff;border-radius:18px;padding:clamp(22px,4vw,48px);box-shadow:0 12px 38px rgba(18,57,37,.08)}
+.uni-form-panel p{line-height:1.7}
+.uni-form{display:grid;gap:14px}
+.uni-form label{display:grid;gap:6px;font-weight:700;font-size:.92rem}
+.uni-form input,.uni-form select,.uni-form textarea{width:100%;padding:13px;border:1px solid #a8baa9;border-radius:8px;font:inherit;background:#fff;color:#1b3527}
+.uni-form input:focus,.uni-form select:focus,.uni-form textarea:focus{outline:3px solid #c2a46d}
+.uni-form .uni-consent{display:flex;align-items:start;gap:10px;font-weight:400}
+.uni-form .uni-consent input{width:auto;margin-top:5px}
+.uni-form button{border:0;border-radius:8px;background:#183d30;color:#fff;font-weight:800;padding:16px;cursor:pointer;font:inherit}
+.uni-small{font-size:.84rem;line-height:1.5;color:#4f6356}
+.uni-honey{position:absolute;left:-9999px}
+.uni-toplink{font-weight:750;color:#173f32}
+.uni-lesson{max-width:850px;margin:auto;font-size:1.04rem;line-height:1.8}
+.uni-lesson h2,.uni-lesson h3{margin-top:32px}
+.uni-quiz{border:1px solid #d0dcd0;padding:24px;border-radius:14px;background:#fff;margin-top:24px}
+.uni-quiz label{display:block;margin:11px 0;cursor:pointer}
+.uni-quiz button{border:0;border-radius:8px;background:#183d30;color:white;padding:12px 21px;cursor:pointer}
+@media(max-width:900px){.uni-course-grid,.uni-track-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.uni-form-panel{grid-template-columns:1fr}}
+@media(max-width:620px){.uni-course-grid,.uni-track-grid{grid-template-columns:1fr}.uni-hero{padding:58px 0}.uni-section{padding:50px 0}.uni-form-panel{padding:20px}}
+
+/* University academic catalog and assessment toolkit (2026 draft) */
+.uni-page-nav{background:#143629;border-bottom:1px solid rgba(255,255,255,.2);padding:13px 0}
+.uni-page-nav .container{display:flex;flex-wrap:wrap;gap:8px 22px}
+.uni-page-nav a{color:#faf7ea;font-weight:750;font-size:.87rem;text-decoration:none;padding:5px 0;border-bottom:2px solid transparent}
+.uni-page-nav a:hover,.uni-page-nav a:focus-visible{border-bottom-color:#c2a46d;color:#fff}
+.uni-academic{background:#f5f0e8}
+.uni-section-head{display:flex;justify-content:space-between;align-items:end;gap:25px;flex-wrap:wrap;margin-bottom:22px}
+.uni-mini-eyebrow{font-size:.72rem;font-weight:800;letter-spacing:.11em;text-transform:uppercase;color:#507b5f}
+.uni-outline-link{border:1px solid #b4c5b6;border-radius:100px;padding:12px 17px;color:#14382d;font-weight:800;text-decoration:none;white-space:nowrap}
+.uni-program-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin:28px 0 40px}
+.uni-program{background:#fff;border:1px solid #cfdad0;border-radius:17px;padding:28px;box-shadow:0 8px 26px rgba(17,52,39,.05)}
+.uni-program-top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.uni-hours{background:#edf3ec;border:1px solid #d5e3d4;color:#245238;border-radius:100px;padding:5px 11px;font-size:.73rem;font-weight:800;white-space:nowrap}
+.uni-program h3{color:#173f32;font-size:1.4rem;line-height:1.25;margin:17px 0 10px}
+.uni-program p{line-height:1.6;color:#385044}
+.uni-program dl{display:grid;gap:8px}
+.uni-program dl div{display:flex;gap:10px;flex-wrap:wrap;font-size:.85rem}
+.uni-program dt{font-weight:800;color:#264c38}.uni-program dd{margin:0}
+.uni-program .uni-path-codes{font-size:.84rem;border-top:1px solid #dfebe0;padding-top:12px}
+.uni-program a{color:#194734;font-weight:800;text-decoration:underline;text-underline-offset:4px}
+.uni-scroll-table{overflow-x:auto;max-width:100%;border-radius:12px;border:1px solid #d6e0d7;margin-top:22px;background:#fff}
+.uni-table{border-collapse:collapse;background:#fff;width:100%;min-width:560px;font-size:.9rem;text-align:left}
+.uni-table caption{text-align:left;padding:12px 18px;background:#edf2eb;color:#476452;font-size:.8rem}
+.uni-table th,.uni-table td{padding:14px 16px;border-bottom:1px solid #e6ebe6;vertical-align:top}
+.uni-table thead th{background:#eaf1eb;color:#234331;font-size:.82rem;letter-spacing:.02em}
+.uni-table tbody tr:last-child td{border-bottom:0}
+.uni-table a{font-weight:750;color:#173f32}
+.uni-alert{padding:18px 22px;background:#fdf6e5;border:1px solid #e6d4a4;border-left:5px solid #c2a46d;border-radius:12px;line-height:1.62;margin-top:28px;color:#493f27}
+.uni-curriculum-toolbar{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin:28px 0 10px}
+.uni-curriculum-toolbar label{font-weight:800;color:#163e2f}
+.uni-curriculum-toolbar input{font:inherit;background:#fff;border:1px solid #adc1af;border-radius:10px;padding:13px 15px;flex:1;min-width:230px}
+.uni-count{color:#506756;font-weight:750;font-size:.85rem;margin:7px 0 18px}
+.uni-syllabi{display:grid;gap:12px}
+.uni-syllabus{background:#fff;border:1px solid #d4dfd5;border-radius:11px;overflow:hidden;scroll-margin-top:14px}
+.uni-syllabus summary{cursor:pointer;display:flex;align-items:center;flex-wrap:wrap;gap:12px 17px;padding:22px;font-weight:800;color:#143c2c}
+.uni-syllabus summary:hover{background:#f4f8f3}
+.uni-syllabus summary::marker{color:#a8833c}
+.uni-syllabus[open] summary{background:#ecf3ed;border-bottom:1px solid #dce6dd}
+.uni-syllabus-id{font-size:.79rem;letter-spacing:.08em;color:#567560;white-space:nowrap}
+.uni-syllabus-title{flex:1;font-size:1.04rem}
+.uni-syllabus-body{padding:26px}
+.uni-syllabus-body h4{color:#164131;margin:4px 0 10px}
+.uni-syllabus-body p,.uni-syllabus-body li{line-height:1.65}
+.uni-syllabus-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.uni-syllabus-grid ul{padding-left:20px}
+.uni-syllabus[hidden]{display:none}
+.uni-faculty-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px;margin:25px 0}
+.uni-faculty-card{background:#fff;border:1px solid #d4dfd5;border-radius:14px;padding:24px}
+.uni-faculty-card h3{color:#153b2c;margin:10px 0}
+.uni-faculty-card p{line-height:1.65}
+.uni-workspace{background:#fff;border:1px solid #bfcfc1;border-radius:14px;margin:24px 0 16px;overflow:hidden}
+.uni-workspace>summary{font-size:1.02rem;background:#1c4b37;color:#fff;padding:19px 22px;font-weight:800;cursor:pointer}
+.uni-workspace-body{padding:25px}
+.uni-staff-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}
+.uni-staff-form label,.uni-exam-bar label,.uni-practical-top label,.uni-practical-notes{display:grid;gap:7px;font-size:.86rem;font-weight:800;color:#244331}
+.uni-staff-form input,.uni-staff-form select,.uni-staff-form textarea,
+.uni-exam-bar select,.uni-practical-top select,.uni-practical-top input,.uni-practical-notes textarea,
+.uni-rubric-table select{font:inherit;padding:12px;border:1px solid #aebfae;border-radius:8px;background:#fff;color:#183b2c;max-width:100%}
+.uni-staff-form input,.uni-staff-form select,.uni-staff-form textarea{width:100%;box-sizing:border-box}
+.uni-span-all{grid-column:1/-1}
+.uni-button-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}
+.uni-action-button,.uni-secondary-button,.uni-table-button{font:inherit;font-weight:800;cursor:pointer;padding:13px 18px;border-radius:9px}
+.uni-action-button{background:#183d30;color:#fff;border:1px solid #183d30}
+.uni-secondary-button{background:#fff;color:#183d30;border:1px solid #aabfac}
+.uni-table-button{background:#fff;color:#783524;border:1px solid #a98c84;padding:7px 11px;font-size:.78rem}
+.uni-action-button:hover{background:#28614b}
+.uni-secondary-button:hover{background:#edf5ee}
+.uni-resource-links{display:flex;gap:12px 25px;flex-wrap:wrap;margin-top:20px}
+.uni-resource-links a{color:#1b523a;font-weight:800;text-decoration:underline;text-underline-offset:4px}
+.uni-exam-shell{padding:26px;background:#fff;border-radius:17px;border:1px solid #cfdcd0;margin:26px 0}
+.uni-exam-bar{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;margin-bottom:23px;padding-bottom:20px;border-bottom:1px solid #e0e8df}
+.uni-exam-bar select{min-width:260px}.uni-exam-counter{font-weight:800;color:#4e6855}
+.uni-written-exam{display:grid;gap:17px}
+.uni-question{border:1px solid #d9e4d9;border-radius:12px;padding:18px 20px;background:#fbfcfa}
+.uni-question legend{font-size:1rem;font-weight:850;padding:0 8px;color:#183e2b}
+.uni-question-choice{display:flex;gap:11px;align-items:start;padding:8px 4px;line-height:1.5;cursor:pointer;font-size:.94rem}
+.uni-question-choice input{width:18px;height:18px;flex:none;margin-top:3px;accent-color:#183d30}
+.uni-exam-results{background:#f3f8f3;border:1px solid #d0e2ce;border-radius:12px;margin-top:20px;padding:23px}
+.uni-exam-results h3{margin:0 0 13px;color:#123927}
+.uni-pass{color:#185538;font-weight:800}.uni-review,.uni-grade-warning{color:#8b5625;font-weight:800}
+.uni-explanation-list{padding-left:25px;margin-top:20px}
+.uni-explanation-list li{margin-bottom:17px}.uni-explanation-list p{line-height:1.5;margin-top:6px}
+.uni-practical-card{background:#fff;border:1px solid #cedccc;border-radius:17px;padding:28px;margin-top:27px}
+.uni-practical-top{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}
+.uni-rubric-table select{min-width:175px}
+.uni-critical{display:block;color:#a04b27;font-size:.73rem;text-transform:uppercase;letter-spacing:.06em;font-weight:850;margin-top:7px}
+.uni-practical-notes{margin-top:22px}
+.uni-practical-result{background:#f0f6ef;border-radius:10px;margin-top:19px;padding:16px 20px;line-height:1.6}
+.uni-practical-result:empty{display:none}
+.uni-sr-only{display:block;font-size:0}.uni-sr-only select{font-size:.92rem}
+@media(max-width:900px){.uni-faculty-grid{grid-template-columns:1fr}.uni-program-grid{grid-template-columns:1fr}}
+@media(max-width:680px){.uni-program{padding:22px}.uni-syllabus summary{padding:17px}.uni-syllabus-grid,.uni-staff-form,.uni-practical-top{grid-template-columns:1fr}.uni-syllabus-body,.uni-exam-shell,.uni-practical-card,.uni-workspace-body{padding:18px}.uni-table{font-size:.82rem}.uni-table th,.uni-table td{padding:11px 9px}}
+@media print{.topline,.masthead,.footer,.uni-page-nav,.uni-hero,.uni-curriculum-toolbar,.uni-button-row,.uni-resource-links,.uni-written-exam,.uni-instructors{display:none!important}.uni-section{padding:10px 0!important}.uni-practical-card{border:1px solid #999;box-shadow:none}.uni-rubric-table select{appearance:none;border:0}.uni-alert{border:1px solid #aaa}}

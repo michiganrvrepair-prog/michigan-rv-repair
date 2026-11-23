@@ -1,0 +1,77 @@
+{
+  "status": "Original independent curriculum proposal for institutional review only. MRR is not claiming state approval, institutional accreditation, GRCC articulation or award of college credit, an RVTI affiliation, or RVTI exam authorization. Credit, accreditation, industry certification and instructor eligibility require separate written decisions by the appropriate organizations.",
+  "proposed_credits_total": 20,
+  "proposed_hours_total": 900,
+  "courses": [
+    {
+      "semester": 1,
+      "id": "MRR-RV205",
+      "credits_proposed": 5,
+      "title": "Advanced RV Systems Analysis, Diagnostics & Quality Assurance",
+      "hours": {
+        "lecture": 45,
+        "lab": 30,
+        "independent": 150
+      },
+      "page": "/university/#semester-course"
+    },
+    {
+      "semester": 2,
+      "id": "MRR-RV215",
+      "credits_proposed": 5,
+      "title": "Advanced RV Diagnostics, Measurement & Reliability",
+      "hours": {
+        "lecture": 45,
+        "lab": 30,
+        "independent": 150
+      },
+      "page": "/university/semester-2-diagnostics/"
+    },
+    {
+      "semester": 3,
+      "id": "MRR-RV225",
+      "credits_proposed": 5,
+      "title": "RV Power, Controls & Integrated Systems Engineering",
+      "hours": {
+        "lecture": 45,
+        "lab": 30,
+        "independent": 150
+      },
+      "page": "/university/semester-3-systems-engineering/"
+    },
+    {
+      "semester": 4,
+      "id": "MRR-RV235",
+      "credits_proposed": 5,
+      "title": "RV Reliability Research, Quality Engineering & Industry Capstone",
+      "hours": {
+        "lecture": 45,
+        "lab": 30,
+        "independent": 150
+      },
+      "page": "/university/semester-4-capstone/"
+    }
+  ],
+  "sources": [
+    [
+      "GRCC Course Format & Credit Hour Policy (effective August 2025)",
+      "https://www.grcc.edu/sites/default/files/docs/policy/7-13_Course_Format_and_Credit_Hour_2025-06_ada.pdf"
+    ],
+    [
+      "GRCC Curriculum Development",
+      "https://www.grcc.edu/faculty-staff/curriculum-support/curriculum-development"
+    ],
+    [
+      "RVTI Certification Levels",
+      "https://www.rvti.org/career-path/training-levels"
+    ],
+    [
+      "RVTI Training Partners",
+      "https://www.rvti.org/get-trained/find-training/training-partners"
+    ],
+    [
+      "Michigan Postsecondary Schools",
+      "https://www.michigan.gov/leo/bureaus-agencies/wd/pss"
+    ]
+  ]
+}

@@ -1,0 +1,7 @@
+(function(){'use strict';var form=document.getElementById('mrr-lead-form');if(!form)return;
+var qs=new URLSearchParams(location.search),sources=['nextdoor','google','yelp','angi','campground','referral','direct','other'];var raw=(qs.get('source')||qs.get('utm_source')||'').toLowerCase().slice(0,80);var source=sources.includes(raw)?raw:'Website / direct';
+var src=document.getElementById('lead_source'),campaign=document.getElementById('lead_campaign'),land=document.getElementById('landing_page'),heard=document.getElementById('how_heard');src.value=source;campaign.value=(qs.get('utm_campaign')||'').slice(0,100);land.value=location.pathname;
+var map={nextdoor:'Nextdoor',google:'Google / Maps',yelp:'Yelp',angi:'Angi',campground:'Campground / dealership',referral:'Friend / referral'};if(map[source])heard.value=map[source];
+var service=qs.get('service')||'',opts=document.getElementById('service_type');for(var i=0;i<opts.options.length;i++){if(opts.options[i].value.toLowerCase()===service.toLowerCase()){opts.value=opts.options[i].value;break}}
+form.addEventListener('submit',function(ev){var files=[...document.querySelectorAll('.photo-input')].flatMap(el=>Array.from(el.files));var total=files.reduce((v,f)=>v+f.size,0);if(total>10*1024*1024){ev.preventDefault();alert('Please select photos totaling 10 MB or less.');return;}if(files.some(f=>!['image/jpeg','image/png','image/webp'].includes(f.type))){ev.preventDefault();alert('Please upload JPG, PNG or WebP images only.');}});
+})();

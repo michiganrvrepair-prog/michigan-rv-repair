@@ -1,0 +1,547 @@
+{
+  "status": "draft_not_approved",
+  "programs": [
+    {
+      "id": "MRR-OWN",
+      "title": "RV Owner Maintenance Foundations",
+      "category": "Owner pathway",
+      "codes": [
+        "RV-101",
+        "RV-130",
+        "RV-160",
+        "RV-180"
+      ],
+      "delivery": "Planned hybrid / guided",
+      "purpose": "Learn to recognize problems, document inspections, and make safe decisions about professional repair.",
+      "entry": "No prerequisite planned.",
+      "hours": 36
+    },
+    {
+      "id": "MRR-TECH",
+      "title": "RV Systems Technician Foundations",
+      "category": "Career exploration",
+      "codes": [
+        "RV-101",
+        "RV-110",
+        "RV-120",
+        "RV-130",
+        "RV-140",
+        "RV-150",
+        "RV-170",
+        "RV-180",
+        "RV-200"
+      ],
+      "delivery": "Planned supervised hybrid",
+      "purpose": "Build systems literacy, troubleshooting documentation, and practical observation skills before specialized technician training.",
+      "entry": "Foundational safety orientation; other prerequisites under review.",
+      "hours": 106
+    },
+    {
+      "id": "MRR-CUST",
+      "title": "RV Restoration & Custom Solutions",
+      "category": "Specialty pathway",
+      "codes": [
+        "RV-160",
+        "RV-170",
+        "RV-190",
+        "RV-210",
+        "RV-220"
+      ],
+      "delivery": "Planned workshops / hybrid",
+      "purpose": "Plan nonstructural parts, custom interiors, preventive exterior care, and restoration work.",
+      "entry": "Foundational systems knowledge recommended.",
+      "hours": 56
+    },
+    {
+      "id": "MRR-BIZ",
+      "title": "RV Service Operations Essentials",
+      "category": "Business pathway",
+      "codes": [
+        "RV-101",
+        "RV-230"
+      ],
+      "delivery": "Planned online / case studies",
+      "purpose": "Understand service workflows, work orders, estimates, customer authorization, and quality assurance.",
+      "entry": "No prerequisite planned.",
+      "hours": 16
+    }
+  ],
+  "courses": [
+    {
+      "id": "RV-101",
+      "name": "RV Fundamentals",
+      "hours": 8,
+      "tag": "Foundations",
+      "topics": [
+        "RV assemblies, construction types and terminology",
+        "Systems map: power, water, propane and body",
+        "Walkaround inspection and owner handoff"
+      ],
+      "outcomes": [
+        "Identify major RV assemblies and their functions",
+        "Document an inspection and separate safety concerns from routine maintenance"
+      ],
+      "demo": "Instructor-led RV walkaround and a completed inspection report.",
+      "practical": "Identify ten components and complete a visual-only inspection checklist.",
+      "lessons": [
+        {
+          "title": "RV assemblies, construction types and terminology",
+          "hours": 2,
+          "format": "Guided concepts"
+        },
+        {
+          "title": "Systems map: power, water, propane and body",
+          "hours": 2,
+          "format": "Demonstration and case review"
+        },
+        {
+          "title": "Walkaround inspection and owner handoff",
+          "hours": 4,
+          "format": "Supervised activity and evidence"
+        }
+      ]
+    },
+    {
+      "id": "RV-110",
+      "name": "12V DC Electrical",
+      "hours": 14,
+      "tag": "Electrical",
+      "topics": [
+        "Voltage, current, polarity and DC distribution",
+        "Battery, fuse, converter and charger identification",
+        "Meter reading and a documented fault-isolation workflow"
+      ],
+      "outcomes": [
+        "Interpret a basic RV DC diagram",
+        "Document safe low-voltage measurements under supervision"
+      ],
+      "demo": "Demonstrate meter setup and measure an isolated training board.",
+      "practical": "Trace a simulated 12V fault on a low-voltage trainer with instructor oversight.",
+      "lessons": [
+        {
+          "title": "Voltage, current, polarity and DC distribution",
+          "hours": 3,
+          "format": "Guided concepts"
+        },
+        {
+          "title": "Battery, fuse, converter and charger identification",
+          "hours": 4,
+          "format": "Demonstration and case review"
+        },
+        {
+          "title": "Meter reading and a documented fault-isolation workflow",
+          "hours": 7,
+          "format": "Supervised activity and evidence"
+        }
+      ]
+    },
+    {
+      "id": "RV-120",
+      "name": "120V AC Electrical",
+      "hours": 14,
+      "tag": "Electrical",
+      "topics": [
+        "Shore power, outlets, breakers and GFCI identification",
+        "Grounding concepts and hazard recognition",
+        "De-energized inspection and escalation decisions"
+      ],
+      "outcomes": [
+        "Explain shore-power safety boundaries",
+        "Identify when work requires a qualified electrician"
+      ],
+      "demo": "Use a de-energized demonstration panel to explain major AC components.",
+      "practical": "Complete a no-live-work AC hazard recognition exercise.",
+      "lessons": [
+        {
+          "title": "Shore power, outlets, breakers and GFCI identification",
+          "hours": 3,
+          "format": "Guided concepts"
+        },
+        {
+          "title": "Grounding concepts and hazard recognition",
+          "hours": 4,
+          "format": "Demonstration and case review"
+        },
+        {
+          "title": "De-energized inspection and escalation decisions",
+          "hours": 7,
+          "format": "Supervised activity and evidence"
+        }
+      ]
+    },
+    {
+      "id": "RV-130",
+      "name": "Plumbing & Water Systems",
+      "hours": 12,
+      "tag": "Water systems",
+      "topics": [
+        "Fresh-water routing, pump and pressure components",
+        "Water heaters and winterization basics",
+        "Leak symptom mapping and service documentation"
+      ],
+      "outcomes": [
+        "Identify RV fresh and waste systems",
+        "Develop a non-invasive troubleshooting plan"
+      ],
+      "demo": "Trace water flow through an isolated training rig.",
+      "practical": "Document a simulated water leak and suggest safe next checks.",
+      "lessons": [
+        {
+          "title": "Fresh-water routing, pump and pressure components",
+          "hours": 3,
+          "format": "Guided concepts"
+        },
+        {
+          "title": "Water heaters and winterization basics",
+          "hours": 4,
+          "format": "Demonstration and case review"
+        },
+        {
+          "title": "Leak symptom mapping and service documentation",
+          "hours": 5,
+          "format": "Supervised activity and evidence"
+        }
+      ]
+    },
+    {
+      "id": "RV-140",
+      "name": "Heating, Ventilation & AC",
+      "hours": 14,
+      "tag": "Climate",
+      "topics": [
+        "Furnace and rooftop air-conditioner component overview",
+        "Airflow, thermostat and control fundamentals",
+        "Symptom triage and safe referral thresholds"
+      ],
+      "outcomes": [
+        "Distinguish ventilation, electrical and combustion-related hazards",
+        "Organize HVAC symptom observations"
+      ],
+      "demo": "Observe an instructor-controlled HVAC training unit.",
+      "practical": "Prepare a diagnostic intake report from a simulated HVAC service call.",
+      "lessons": [
+        {
+          "title": "Furnace and rooftop air-conditioner component overview",
+          "hours": 3,
+          "format": "Guided concepts"
+        },
+        {
+          "title": "Airflow, thermostat and control fundamentals",
+          "hours": 4,
+          "format": "Demonstration and case review"
+        },
+        {
+          "title": "Symptom triage and safe referral thresholds",
+          "hours": 7,
+          "format": "Supervised activity and evidence"
+        }
+      ]
+    },
+    {
+      "id": "RV-150",
+      "name": "RV Refrigeration & Appliances",
+      "hours": 12,
+      "tag": "Appliances",
+      "topics": [
+        "Absorption versus compressor refrigeration",
+        "Operating conditions and airflow principles",
+        "Owner-level checks and qualified-service referrals"
+      ],
+      "outcomes": [
+        "Explain common RV refrigeration types",
+        "Write an appliance symptom and maintenance record"
+      ],
+      "demo": "Compare appliance labels, airflow paths and sample fault reports.",
+      "practical": "Identify appliance type and complete a visual-condition report.",
+      "lessons": [
+        {
+          "title": "Absorption versus compressor refrigeration",
+          "hours": 3,
+          "format": "Guided concepts"
+        },
+        {
+          "title": "Operating conditions and airflow principles",
+          "hours": 4,
+          "format": "Demonstration and case review"
+        },
+        {
+          "title": "Owner-level checks and qualified-service referrals",
+          "hours": 5,
+          "format": "Supervised activity and evidence"
+        }
+      ]
+    },
+    {
+      "id": "RV-160",
+      "name": "Roofing & Exterior Sealing",
+      "hours": 8,
+      "tag": "Exterior",
+      "topics": [
+        "Common roof membranes and sealant categories",
+        "Visual moisture intrusion assessment",
+        "Inspection reporting and preventive-care schedule"
+      ],
+      "outcomes": [
+        "Identify typical roof failure indicators",
+        "Prepare a photo-backed inspection report"
+      ],
+      "demo": "Inspect sample membrane and sealant condition boards.",
+      "practical": "Record mock roof defects using a standardized photo checklist.",
+      "lessons": [
+        {
+          "title": "Common roof membranes and sealant categories",
+          "hours": 2,
+          "format": "Guided concepts"
+        },
+        {
+          "title": "Visual moisture intrusion assessment",
+          "hours": 2,
+          "format": "Demonstration and case review"
+        },
+        {
+          "title": "Inspection reporting and preventive-care schedule",
+          "hours": 4,
+          "format": "Supervised activity and evidence"
+        }
+      ]
+    },
+    {
+      "id": "RV-170",
+      "name": "Slide-Outs & Awnings",
+      "hours": 12,
+      "tag": "Mechanisms",
+      "topics": [
+        "Common slide drive and awning mechanisms",
+        "Mechanical pinch points and lockout principles",
+        "Inspection notes and service referral criteria"
+      ],
+      "outcomes": [
+        "Recognize major mechanism types",
+        "Create a safe symptom log and inspect accessible components"
+      ],
+      "demo": "Review a stationary mechanism model and diagram its components.",
+      "practical": "Assess a de-energized mock-up for observable maintenance concerns.",
+      "lessons": [
+        {
+          "title": "Common slide drive and awning mechanisms",
+          "hours": 3,
+          "format": "Guided concepts"
+        },
+        {
+          "title": "Mechanical pinch points and lockout principles",
+          "hours": 4,
+          "format": "Demonstration and case review"
+        },
+        {
+          "title": "Inspection notes and service referral criteria",
+          "hours": 5,
+          "format": "Supervised activity and evidence"
+        }
+      ]
+    },
+    {
+      "id": "RV-180",
+      "name": "Propane Systems & Safety",
+      "hours": 8,
+      "tag": "Safety",
+      "topics": [
+        "Containers, regulators and appliance identification",
+        "Leak alarms, ventilation and emergency response",
+        "Scope of work, documentation and licensed-service escalation"
+      ],
+      "outcomes": [
+        "Recognize propane hazards and immediate response requirements",
+        "Know when to stop and refer to a qualified professional"
+      ],
+      "demo": "Instructor demonstrates hazard recognition using non-pressurized props.",
+      "practical": "Complete a scenario-based stop-work and emergency-response evaluation.",
+      "lessons": [
+        {
+          "title": "Containers, regulators and appliance identification",
+          "hours": 2,
+          "format": "Guided concepts"
+        },
+        {
+          "title": "Leak alarms, ventilation and emergency response",
+          "hours": 2,
+          "format": "Demonstration and case review"
+        },
+        {
+          "title": "Scope of work, documentation and licensed-service escalation",
+          "hours": 4,
+          "format": "Supervised activity and evidence"
+        }
+      ]
+    },
+    {
+      "id": "RV-190",
+      "name": "Solar, Batteries & Off-Grid",
+      "hours": 12,
+      "tag": "Electrical",
+      "topics": [
+        "Solar panels, charge controllers and batteries",
+        "Loads, charging and energy-budget fundamentals",
+        "Battery chemistry hazards and system documentation"
+      ],
+      "outcomes": [
+        "Sketch a high-level off-grid power architecture",
+        "Estimate an energy budget using provided specifications"
+      ],
+      "demo": "Review a demonstration solar charging schematic without live high-energy work.",
+      "practical": "Create a basic load worksheet and identify isolation points on a diagram.",
+      "lessons": [
+        {
+          "title": "Solar panels, charge controllers and batteries",
+          "hours": 3,
+          "format": "Guided concepts"
+        },
+        {
+          "title": "Loads, charging and energy-budget fundamentals",
+          "hours": 4,
+          "format": "Demonstration and case review"
+        },
+        {
+          "title": "Battery chemistry hazards and system documentation",
+          "hours": 5,
+          "format": "Supervised activity and evidence"
+        }
+      ]
+    },
+    {
+      "id": "RV-200",
+      "name": "Chassis, Bearings & Brakes",
+      "hours": 12,
+      "tag": "Running gear",
+      "topics": [
+        "Axle, wheel, tire and brake identification",
+        "Inspection indicators and safe support considerations",
+        "Inspection records, torque-spec documentation and referrals"
+      ],
+      "outcomes": [
+        "Recognize visible running-gear concerns",
+        "Document defects without performing unsafe roadside service"
+      ],
+      "demo": "Identify components on a stationary training assembly.",
+      "practical": "Complete an inspection report for simulated bearing/brake concerns.",
+      "lessons": [
+        {
+          "title": "Axle, wheel, tire and brake identification",
+          "hours": 3,
+          "format": "Guided concepts"
+        },
+        {
+          "title": "Inspection indicators and safe support considerations",
+          "hours": 4,
+          "format": "Demonstration and case review"
+        },
+        {
+          "title": "Inspection records, torque-spec documentation and referrals",
+          "hours": 5,
+          "format": "Supervised activity and evidence"
+        }
+      ]
+    },
+    {
+      "id": "RV-210",
+      "name": "Custom Fabrication & 3D Printing",
+      "hours": 12,
+      "tag": "Fabrication",
+      "topics": [
+        "Material and load-path recognition",
+        "Measurements, CAD/fitment and prototype planning",
+        "Nonstructural component evaluation and quality checks"
+      ],
+      "outcomes": [
+        "Recognize when a component is safety-critical or structural",
+        "Create a nonstructural replacement-part specification"
+      ],
+      "demo": "Measure and prototype a non-load-bearing cabinet clip.",
+      "practical": "Document dimensions, material choice and limitations for a sample part.",
+      "lessons": [
+        {
+          "title": "Material and load-path recognition",
+          "hours": 3,
+          "format": "Guided concepts"
+        },
+        {
+          "title": "Measurements, CAD/fitment and prototype planning",
+          "hours": 4,
+          "format": "Demonstration and case review"
+        },
+        {
+          "title": "Nonstructural component evaluation and quality checks",
+          "hours": 5,
+          "format": "Supervised activity and evidence"
+        }
+      ]
+    },
+    {
+      "id": "RV-220",
+      "name": "Vintage RV Restoration",
+      "hours": 12,
+      "tag": "Restoration",
+      "topics": [
+        "Vintage construction, moisture damage and condition mapping",
+        "Cabinetry, upholstery and soft-goods planning",
+        "Scope estimates and preservation versus replacement"
+      ],
+      "outcomes": [
+        "Prepare a restoration condition map",
+        "Develop a prioritized work scope"
+      ],
+      "demo": "Review a pop-up camper restoration case study and material samples.",
+      "practical": "Produce a written restoration scope for a mock client.",
+      "lessons": [
+        {
+          "title": "Vintage construction, moisture damage and condition mapping",
+          "hours": 3,
+          "format": "Guided concepts"
+        },
+        {
+          "title": "Cabinetry, upholstery and soft-goods planning",
+          "hours": 4,
+          "format": "Demonstration and case review"
+        },
+        {
+          "title": "Scope estimates and preservation versus replacement",
+          "hours": 5,
+          "format": "Supervised activity and evidence"
+        }
+      ]
+    },
+    {
+      "id": "RV-230",
+      "name": "RV Service Business Operations",
+      "hours": 8,
+      "tag": "Business",
+      "topics": [
+        "Service intake, estimates and customer consent",
+        "Work orders, repair photos and communication",
+        "Quality checks, warranty notes and record practices"
+      ],
+      "outcomes": [
+        "Build a complete service intake document",
+        "Apply clear estimate and authorization workflows"
+      ],
+      "demo": "Instructor models estimate-to-invoice service workflow.",
+      "practical": "Complete a mock estimate and customer handoff checklist.",
+      "lessons": [
+        {
+          "title": "Service intake, estimates and customer consent",
+          "hours": 2,
+          "format": "Guided concepts"
+        },
+        {
+          "title": "Work orders, repair photos and communication",
+          "hours": 2,
+          "format": "Demonstration and case review"
+        },
+        {
+          "title": "Quality checks, warranty notes and record practices",
+          "hours": 4,
+          "format": "Supervised activity and evidence"
+        }
+      ]
+    }
+  ]
+}

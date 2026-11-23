@@ -1,0 +1,25 @@
+
+.mrr-status-banner{position:relative;z-index:12;background:#f4edda;color:#493f24;border-bottom:2px solid #cfaa5c;font:600 13px/1.55 system-ui,sans-serif;padding:10px max(18px,calc((100vw - 1180px)/2));text-align:center}
+.mrr-status-banner a{color:#13432e;font-weight:850;text-decoration:underline;text-underline-offset:3px}
+.mrr-legal-footnote{font:500 13px/1.5 system-ui,sans-serif;background:#0d3024;color:#eef5f0;text-align:center;padding:17px 18px}
+.mrr-legal-footnote a{color:#f4dba0;text-underline-offset:3px}
+.mrr-safety-note{background:#faf5e8;border-left:4px solid #c8953e;padding:15px 19px;border-radius:8px;color:#433622;line-height:1.6;margin:22px 0}
+.mrr-safe-main{background:#f5f7f3;color:#193d32;font-family:system-ui,-apple-system,Segoe UI,sans-serif;min-height:52vh}
+.mrr-safe-wrap{max-width:1120px;margin:0 auto;padding:50px 22px 70px}
+.mrr-safe-kicker{text-transform:uppercase;letter-spacing:.17em;font-weight:850;font-size:.77rem;color:#f5c96e}
+.mrr-safe-hero{padding:46px;border-radius:22px;background:linear-gradient(115deg,#11382c,#205846);color:#fff;box-shadow:0 15px 35px #0d2d1a13}
+.mrr-safe-hero h1{color:white;font-size:clamp(2rem,5vw,3.5rem);line-height:1.12;letter-spacing:-.02em;max-width:780px;margin:15px 0 20px}
+.mrr-safe-hero p{color:#e6f0e8;max-width:860px;font-size:1.1rem;line-height:1.65}
+.mrr-safe-btn{display:inline-block;background:#e5bb66!important;color:#122b1f!important;border-radius:9px;padding:13px 19px;margin:8px 9px 8px 0;text-decoration:none!important;font-weight:800}
+.mrr-safe-btn.secondary{background:transparent!important;color:#fff!important;border:1px solid #89b3a3}
+.mrr-safe-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:18px;margin:25px 0}
+.mrr-safe-card{background:#fff;border:1px solid #d7e3da;border-radius:14px;padding:22px;line-height:1.6;box-shadow:0 5px 14px #19402a08}
+.mrr-safe-card h2,.mrr-safe-card h3{color:#184332;margin:0 0 9px;font-size:1.25rem}
+.mrr-safe-card p{color:#46564e;margin:0 0 12px}
+.mrr-safe-card a{color:#1a5a45}
+.mrr-safe-section{max-width:900px;padding:10px 0;font-size:1.05rem;line-height:1.75}
+.mrr-safe-section h2{color:#164a36;margin:35px 0 8px;font-size:1.5rem}
+.mrr-safe-section p,.mrr-safe-section li{color:#364840}
+.mrr-safe-section ul{padding-left:24px}
+.mrr-safe-label{display:inline-flex;align-items:center;background:#f5deb0;color:#3e321c;border-radius:99px;padding:6px 12px;font-size:12px;font-weight:850}
+@media(max-width:680px){.mrr-safe-hero{padding:26px}.mrr-safe-wrap{padding:30px 16px 44px}.mrr-safe-hero h1{font-size:2.1rem}}

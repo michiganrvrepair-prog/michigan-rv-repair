@@ -1,0 +1,123 @@
+[
+  {
+    "id": "cap-forest",
+    "name": "MRR Forest Green Cap",
+    "category": "Hats",
+    "price_cents": 2495,
+    "sizes": [
+      "One size"
+    ],
+    "color": "Forest green",
+    "kind": "cap",
+    "status": "concept"
+  },
+  {
+    "id": "beanie-cream",
+    "name": "MRR Knit Beanie",
+    "category": "Hats",
+    "price_cents": 2195,
+    "sizes": [
+      "One size"
+    ],
+    "color": "Cream",
+    "kind": "beanie",
+    "status": "concept"
+  },
+  {
+    "id": "shirt-classic",
+    "name": "MRR Everyday Tee",
+    "category": "Shirts",
+    "price_cents": 2795,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Sand / forest print",
+    "kind": "tee",
+    "status": "concept"
+  },
+  {
+    "id": "shirt-work",
+    "name": "MRR Heavyweight Work Shirt",
+    "category": "Shirts",
+    "price_cents": 3695,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Charcoal",
+    "kind": "workshirt",
+    "status": "concept"
+  },
+  {
+    "id": "hoodie-forest",
+    "name": "MRR Shop Hoodie",
+    "category": "Sweatshirts",
+    "price_cents": 5495,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Forest green",
+    "kind": "hoodie",
+    "status": "concept"
+  },
+  {
+    "id": "jacket-canvas",
+    "name": "MRR Canvas Work Jacket",
+    "category": "Outerwear",
+    "price_cents": 8995,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Tobacco brown",
+    "kind": "jacket",
+    "status": "concept"
+  },
+  {
+    "id": "jacket-softshell",
+    "name": "MRR All-Weather Softshell",
+    "category": "Outerwear",
+    "price_cents": 7995,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "color": "Graphite",
+    "kind": "softshell",
+    "status": "concept"
+  },
+  {
+    "id": "tumbler",
+    "name": "MRR Road Crew Tumbler",
+    "category": "Accessories",
+    "price_cents": 2495,
+    "sizes": [
+      "20 oz"
+    ],
+    "color": "Cream",
+    "kind": "tumbler",
+    "status": "concept"
+  }
+]

@@ -1,0 +1,10 @@
+
+/* Third MRR homepage highlight — custom solutions */
+.mrr-third-highlight{background:linear-gradient(115deg,#e7eee6 0%,#f5f0e8 72%);padding:clamp(36px,5vw,68px) 20px;border-top:1px solid #cdd9cd;border-bottom:1px solid #cdd9cd;}
+.mrr-third-highlight-inner{max-width:1140px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:35px;flex-wrap:wrap;}
+.mrr-third-highlight-copy{flex:1 1 620px;min-width:0;}
+.mrr-third-highlight-kicker{font-size:.78rem;letter-spacing:.12em;font-weight:800;text-transform:uppercase;color:#54755d;margin:0 0 10px;}
+.mrr-third-highlight h2{font-size:clamp(1.8rem,3.4vw,2.9rem);line-height:1.13;letter-spacing:-.025em;color:#183d30;margin:0 0 16px;max-width:780px;}
+.mrr-third-highlight-copy>p:last-child{max-width:760px;line-height:1.65;color:#37483d;margin:0;font-size:1.025rem;}
+.mrr-third-highlight .mrr-custom-highlight-link{white-space:normal;text-align:center;flex:0 1 245px;min-height:54px;display:inline-flex;align-items:center;justify-content:center;}
+@media(max-width:720px){.mrr-third-highlight-inner{gap:20px}.mrr-third-highlight .mrr-custom-highlight-link{width:100%;max-width:100%;flex-basis:auto}}

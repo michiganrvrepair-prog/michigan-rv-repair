@@ -1,0 +1,25 @@
+
+.mrr-trees-hero{padding:clamp(3rem,7vw,6rem) 0;background:linear-gradient(112deg,rgba(15,55,42,.94),rgba(22,67,50,.83)),radial-gradient(circle at 85% 10%,#70907c 0,#153b2c 58%);color:#fff}
+.mrr-trees-hero .eyebrow{color:#d6c89b;letter-spacing:.18em;font-size:.76rem;font-weight:750}
+.mrr-trees-hero h1{max-width:900px;font-size:clamp(2.2rem,5.1vw,4.8rem);line-height:1.08;margin:1rem 0;color:#fff}
+.mrr-trees-hero p{max-width:740px;color:#ecf2ea;line-height:1.7;font-size:1.12rem}
+.mrr-trees-btn{display:inline-block;background:#f2eadc;color:#194634!important;padding:.9rem 1.3rem;border-radius:7px;font-weight:800;text-decoration:none;margin:.5rem .7rem .25rem 0}
+.mrr-trees-btn.secondary{background:transparent;color:#fff!important;border:1px solid #c4d0c4}
+.mrr-trees-section{padding:clamp(2.5rem,5vw,4.5rem) 0;background:#f8f5ee;color:#203d32}
+.mrr-trees-section.alt{background:#edf0e8}
+.mrr-trees-section h2{font-size:clamp(1.75rem,3vw,2.7rem);color:#153e30;line-height:1.2;margin:.35rem 0 1rem}
+.mrr-trees-section p{line-height:1.7;max-width:850px}
+.mrr-trees-label{color:#6e764f;font-weight:800;letter-spacing:.15em;font-size:.76rem}
+.mrr-trees-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:1.1rem;margin-top:1.75rem}
+.mrr-trees-card{background:white;border:1px solid #d5dfd5;padding:1.4rem;border-radius:11px;box-shadow:0 6px 18px rgba(14,48,35,.05)}
+.mrr-trees-card h3{color:#164331;font-size:1.16rem;margin:0 0 .65rem}
+.mrr-trees-card p{font-size:.95rem;margin:.5rem 0 1rem}
+.mrr-trees-card a{color:#13533c;font-weight:750;text-decoration:underline;text-underline-offset:3px}
+.mrr-trees-alert{background:#fff8e9;border-left:5px solid #bd9a4d;padding:1.15rem 1.4rem;margin:2rem 0;border-radius:3px;color:#423a28}
+.mrr-trees-steps{counter-reset:step;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin:1.5rem 0}
+.mrr-trees-steps .mrr-trees-card{border-top:4px solid #174b37}
+.mrr-trees-steps .mrr-trees-card:before{counter-increment:step;content:'0' counter(step);display:block;color:#ad8b4c;font-weight:900;font-size:1.4rem;margin-bottom:.5rem}
+.mrr-trees-home{background:#194735;color:#fff;padding:2rem 0}
+.mrr-trees-home h2{color:#fff;margin:.3rem 0;font-size:clamp(1.35rem,2.6vw,2.1rem)}
+.mrr-trees-home p{max-width:690px;line-height:1.65;color:#e1ece2}
+@media(max-width:650px){.mrr-trees-hero{padding:3rem 0}.mrr-trees-btn{display:block;text-align:center;margin:.65rem 0}.mrr-trees-section{padding:2.3rem 0}}

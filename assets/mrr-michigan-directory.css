@@ -1,0 +1,60 @@
+/* MRR Michigan-first campground pages */
+#mrr-michigan-main{color:#193b2c;background:#fff}
+.mi-hero{background:linear-gradient(113deg,#09251c 0%,#174936 59%,#37684d 100%);color:white;padding:80px 0 87px;position:relative;overflow:hidden}
+.mi-hero:after{content:"";position:absolute;top:-240px;right:10%;width:620px;height:620px;border:1px solid #cfd9be2a;border-radius:50%;box-shadow:0 0 0 80px #cad9bb0b,0 0 0 165px #cad9bb09;pointer-events:none}
+.mi-hero-layout{display:grid;grid-template-columns:1.2fr .8fr;gap:60px;align-items:center;position:relative;z-index:1}
+.mi-kicker{color:#efcf94;font-size:.75rem;text-transform:uppercase;font-weight:900;letter-spacing:.18em}
+.mi-hero h1{color:#fff;font-size:clamp(2.8rem,5.6vw,5.6rem);line-height:1.04;letter-spacing:-.06em;margin:18px 0 25px}
+.mi-hero h1 em{font-style:normal;color:#eacb97}
+.mi-hero p{font-size:1.06rem;line-height:1.67;color:#e0eee4;max-width:710px}
+.mi-hero-buttons{display:flex;align-items:center;flex-wrap:wrap;gap:17px;margin-top:28px}
+.mi-ghost{color:white!important;font-weight:900;text-decoration:underline;text-underline-offset:5px}
+.mi-hero .mi-note{font-size:.75rem;color:#c1dac7;margin-top:19px}
+.mi-hero-aside{border:1px solid #e9d4ad61;border-radius:21px;padding:32px;background:#ffffff12;box-shadow:0 20px 70px #041b1352;backdrop-filter:blur(4px)}
+.mi-icon{display:grid;place-items:center;border:2px solid #ead3a6;border-radius:50%;width:86px;height:86px;font-weight:900;color:#f5d89f;font-size:1.7rem;letter-spacing:-.09em}
+.mi-card-eyebrow{font-size:.72rem!important;color:#eacb97!important;font-weight:900;letter-spacing:.15em;margin:23px 0 0!important}
+.mi-hero-aside h2{font-size:1.9rem;line-height:1.2;margin:9px 0;color:#fff}
+.mi-hero-aside p{font-size:.92rem;line-height:1.7}
+.mi-hero-aside a{color:#f0d6a7!important;font-weight:900;font-size:.9rem}
+.mi-feature-band{background:#f6f1e7;border-bottom:1px solid #e5dccd}
+.mi-feature-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}
+.mi-feature-row>div{border-right:1px solid #e0dbcc;padding:24px 22px}.mi-feature-row>div:last-child{border:0}
+.mi-feature-row strong{display:block;color:#1b4a32;font-size:1.7rem}.mi-feature-row span{display:block;font-size:.78rem;color:#5a705e}
+.mi-search-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr auto;gap:14px;align-items:end}
+.mi-search-grid label{display:grid;gap:7px;font-size:.81rem;color:#254938;font-weight:900}
+.mi-search-grid input,.mi-search-grid select{border:1px solid #c1d0c0;border-radius:8px;background:#fff;color:#1d4633;font:inherit;padding:13px;width:100%;min-width:0}
+.mi-search-grid button{min-height:46px;white-space:nowrap}
+.mi-quick{display:flex;flex-wrap:wrap;gap:8px;align-items:center;border-top:1px solid #dce5d9;padding-top:16px;margin-top:20px}
+.mi-quick span{font-size:.78rem;color:#57705e;font-weight:900;margin-right:4px}.mi-quick button{border:1px solid #cadacb;background:#eef5ec;border-radius:25px;padding:8px 12px;color:#1c5137;font-size:.78rem;font-weight:800;cursor:pointer}
+.mi-quick button:hover{background:#dceadd}
+.mi-data-status{display:flex;gap:14px;justify-content:space-between;align-items:center;flex-wrap:wrap;margin:23px 0 14px}
+.mi-data-status p{font-size:.89rem;font-weight:900;margin:0;color:#2e553f}.mi-data-status span{font-size:.78rem;color:#69776c}
+.mi-results{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.mi-result-card{background:#fff;border-radius:13px;border:1px solid #d9e3d8;padding:23px;display:flex;flex-direction:column;min-width:0;box-shadow:0 8px 25px #152b160b}
+.mi-result-top{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.mi-result-top span{font-size:.69rem;border-radius:100px;background:#e9f0e7;color:#365a3b;padding:6px 9px;font-weight:900}
+.mi-result-top .mi-gov-tag{background:#f7ead4;color:#795728}
+.mi-result-card h3{font-size:1.1rem;color:#153d2b;line-height:1.24;margin:17px 0 6px}
+.mi-result-card .mi-location{font-size:.85rem;color:#4c6856;font-weight:900;margin:0 0 11px}
+.mi-result-card .mi-source-label{font-size:.74rem;line-height:1.52;color:#758478;margin:0 0 12px}
+.mi-result-links{border-top:1px solid #e3e9e1;padding-top:13px;margin-top:auto;display:flex;flex-wrap:wrap;gap:8px}
+.mi-link{border:1px solid #cadac9;border-radius:7px;padding:8px 10px;color:#23583c!important;font-size:.75rem;font-weight:800;text-decoration:none;display:inline-block}
+.mi-link.mi-primary{background:#204f39;color:#fff!important;border-color:#204f39}
+.mi-link:hover{filter:brightness(.92)}
+.mi-empty{grid-column:1/-1;background:#f7f9f5;border:1px dashed #bbccbf;border-radius:12px;padding:25px}
+.mi-pagination{display:flex;align-items:center;justify-content:center;gap:15px;margin:27px 0}.mi-pagination button{border:1px solid #c0d2c1;border-radius:8px;padding:10px 15px;font-weight:900;background:white;color:#20543c;cursor:pointer}.mi-pagination button:disabled{opacity:.44;cursor:not-allowed}
+.mi-pagination span{font-size:.82rem;color:#637668}.mi-listing-disclaimer,.mi-data-warning{font-size:.81rem;line-height:1.65;color:#667a6b;max-width:1090px}.mi-data-warning{color:#885c31;padding:11px 14px;background:#fff2de;border-radius:8px}
+.mi-source-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:24px}
+.mi-source-grid article{display:flex;flex-direction:column;border:1px solid #d9e5d8;background:#fff;border-radius:14px;padding:26px}
+.mi-source-grid span{color:#936e3d;font-size:.71rem;font-weight:900;letter-spacing:.12em}.mi-source-grid h3{color:#193f2b;font-size:1.16rem;margin:14px 0 10px}
+.mi-source-grid p{font-size:.85rem;color:#596e5e;line-height:1.62;flex:1}.mi-source-grid a{color:#1b6843;font-size:.8rem;font-weight:900}
+.mi-benefit-band{background:linear-gradient(112deg,#102e23,#24533d);padding:56px 0;color:#fff}.mi-benefit-inner{display:grid;grid-template-columns:1.3fr .7fr;gap:50px;align-items:center}.mi-benefit-inner h2{font-size:clamp(1.8rem,3vw,2.5rem);color:#fff;margin:13px 0}.mi-benefit-inner p{color:#e0ebe3;line-height:1.6;max-width:760px}.mi-benefit-actions{display:flex;flex-direction:column;align-items:flex-start;gap:20px}
+.mi-source-foot{background:#0b261c;padding:24px 0;color:#b9cdc0}.mi-source-foot p{font-size:.76rem;line-height:1.68;margin:0 0 8px}.mi-source-foot a{color:#f1d39e}
+/* Michigan priority block on national atlas and MRR home */
+.mi-homecall{background:#e9efde;border-top:1px solid #bfd0b8;border-bottom:1px solid #bfd0b8;padding:32px 0}
+.mi-homecall-inner{display:flex;justify-content:space-between;gap:26px;align-items:center}.mi-homecall-inner>div{max-width:760px}.mi-homecall h2{font-size:clamp(1.5rem,2.4vw,2.2rem);margin:7px 0;color:#173c2b}
+.mi-homecall p{font-size:.92rem;color:#4a6550;margin:0;line-height:1.6}.mi-homecall-kicker{font-size:.7rem;letter-spacing:.13em;color:#8d6a36;font-weight:900}.mi-homecall-inner>.mrr-btn{flex-shrink:0}
+.atlas-state-featured{order:-1;background:#e6f1df!important;border:2px solid #467851!important;box-shadow:0 10px 25px #1b51291d}.atlas-state-featured h3 small{font-size:.61rem;background:#214d36;color:#fff;padding:5px 8px;border-radius:100px;margin-left:5px}
+@media(max-width:1150px){.mi-search-grid{grid-template-columns:1fr 1fr}.mi-results,.mi-source-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.mi-hero-layout,.mi-benefit-inner{grid-template-columns:1fr;gap:28px}.mi-hero{padding:55px 0}.mi-hero-aside{padding:25px}.mi-feature-row{grid-template-columns:1fr 1fr}.mi-feature-row>div:nth-child(2){border-right:0}.mi-feature-row>div:nth-child(-n+2){border-bottom:1px solid #e0dbcc}.mi-homecall-inner{align-items:flex-start;flex-direction:column}}
+@media(max-width:560px){.mi-search-grid,.mi-results,.mi-source-grid{grid-template-columns:1fr}.mi-hero h1{font-size:2.8rem}.mi-hero-buttons{align-items:flex-start}.mi-hero-aside h2{font-size:1.6rem}.mi-feature-row>div{padding:16px 12px}.mi-feature-row strong{font-size:1.4rem}}

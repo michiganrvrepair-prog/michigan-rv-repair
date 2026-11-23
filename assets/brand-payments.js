@@ -1,0 +1,1 @@
+/* Direct website payment shortcuts are inactive during compliance review. Pay only an individually issued invoice. */

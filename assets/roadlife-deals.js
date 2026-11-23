@@ -1,0 +1,26 @@
+/* Public deal directory reads ONLY published, review-checked deals through Supabase public RLS. */
+(()=>{'use strict';
+const URL_ROOT='https://qxolqdrdypfjtkqgbmoi.supabase.co';
+const PUBLISHABLE_KEY='sb_publishable_owYCTZ04rHA-keIw16413Q_CVdiW9t6';
+const STATES=[['AL','Alabama'],['AK','Alaska'],['AZ','Arizona'],['AR','Arkansas'],['CA','California'],['CO','Colorado'],['CT','Connecticut'],['DE','Delaware'],['FL','Florida'],['GA','Georgia'],['HI','Hawaii'],['ID','Idaho'],['IL','Illinois'],['IN','Indiana'],['IA','Iowa'],['KS','Kansas'],['KY','Kentucky'],['LA','Louisiana'],['ME','Maine'],['MD','Maryland'],['MA','Massachusetts'],['MI','Michigan'],['MN','Minnesota'],['MS','Mississippi'],['MO','Missouri'],['MT','Montana'],['NE','Nebraska'],['NV','Nevada'],['NH','New Hampshire'],['NJ','New Jersey'],['NM','New Mexico'],['NY','New York'],['NC','North Carolina'],['ND','North Dakota'],['OH','Ohio'],['OK','Oklahoma'],['OR','Oregon'],['PA','Pennsylvania'],['RI','Rhode Island'],['SC','South Carolina'],['SD','South Dakota'],['TN','Tennessee'],['TX','Texas'],['UT','Utah'],['VT','Vermont'],['VA','Virginia'],['WA','Washington'],['WV','West Virginia'],['WI','Wisconsin'],['WY','Wyoming']];
+const $=id=>document.getElementById(id);const node=(tag,cls,t)=>{const x=document.createElement(tag);if(cls)x.className=cls;if(t!==undefined)x.textContent=String(t);return x};
+const safeUrl=u=>{try{const p=new URL(u);return p.protocol==='https:'?p.toString():null}catch{return null}};
+const month=new Date().toISOString().slice(0,7);const first=month+'-01';$('deals-month').value=month;
+const q=new URLSearchParams(location.search);let selection=STATES.some(s=>s[0]===q.get('state'))?q.get('state'):'MI';
+const select=$('deals-state'),buttons=$('deals-state-grid'),result=$('deals-results');
+for(const [code,name] of STATES){let o=node('option','',name);o.value=code;select.append(o);let b=node('button','deals-state',code);b.type='button';b.title=name;b.setAttribute('aria-label',name+' camping offers');b.dataset.state=code;b.addEventListener('click',()=>show(code));buttons.append(b)}
+function link(url,text){const a=node('a','',text);a.href=safeUrl(url)||'#';a.target='_blank';a.rel='noopener noreferrer nofollow';return a;}
+function heading(code,count){const w=node('div','deals-head');const h=node('h3','',STATES.find(x=>x[0]===code)[1]+' camping deals');const small=node('span','deals-small',count+' of 5 verified offers available for '+month);w.append(h,small);result.append(w)}
+function offer(d){let c=node('article','deals-offer');c.append(node('div','deals-rank','Verified offer '+d.display_order));c.append(node('h4','',d.campground_name));c.append(node('p','',d.deal_title));c.append(node('p','',d.summary));if(d.city)c.append(node('p','deals-small',d.city+', '+d.state));if(d.terms)c.append(node('p','deals-small','Terms: '+d.terms));if(d.partner_offer)c.append(node('p','deals-disclosure','Partner offer: MRR may receive compensation if you purchase through this link.'));if(d.valid_until)c.append(node('p','deals-small','Listed valid through: '+d.valid_until));const links=node('div','deals-links');if(safeUrl(d.booking_url))links.append(link(d.booking_url,'View the official offer ↗'));if(safeUrl(d.source_url))links.append(link(d.source_url,'Verify terms at source ↗'));c.append(links);return c;}
+let latest=0;
+async function show(code){selection=code;select.value=code;const token=++latest;
+for(const b of buttons.children)b.setAttribute('aria-pressed',String(b.dataset.state===code));
+const next=new URL(location.href);next.searchParams.set('state',code);history.replaceState(null,'',next.pathname+next.search+next.hash);
+result.replaceChildren(node('div','deals-empty','Looking for verified offers…'));
+try{const url=new URL(URL_ROOT+'/rest/v1/mrr_roadlife_camping_deals');url.searchParams.set('select','state,issue_month,display_order,campground_name,city,deal_title,summary,terms,booking_url,source_url,valid_until,partner_offer');url.searchParams.set('state','eq.'+code);url.searchParams.set('issue_month','eq.'+first);url.searchParams.set('status','eq.published');url.searchParams.set('order','display_order.asc');url.searchParams.set('limit','5');
+const response=await fetch(url.toString(),{headers:{apikey:PUBLISHABLE_KEY,authorization:'Bearer '+PUBLISHABLE_KEY,accept:'application/json'}});if(!response.ok)throw new Error('Service is temporarily unavailable');let deals=await response.json();if(token!==latest)return;
+result.replaceChildren();heading(code,deals.length);if(!deals.length){const e=node('div','deals-empty');e.append(node('strong','','No verified camping discounts published for this state this month.'));e.append(node('p','','We are contacting campground partners and reviewing public offers. Check back for updates, or browse campground information now.'));const a=node('a','','Find campgrounds in MRR Atlas →');a.href='/campgrounds/';e.append(a);result.append(e)}else{const group=node('div','deals-items');for(const d of deals)group.append(offer(d));result.append(group)}
+}catch(err){if(token!==latest)return;result.replaceChildren();heading(code,0);result.append(node('div','deals-empty','The live deals directory cannot be reached right now. Please try again later. No unverified deals are shown.'))}
+}
+select.addEventListener('change',()=>show(select.value));show(selection);
+})();

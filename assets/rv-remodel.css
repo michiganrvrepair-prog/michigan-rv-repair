@@ -1,0 +1,17 @@
+/* MRR custom RV remodel feature */
+.mrr-remodel-feature{background:#efe9db;padding:clamp(42px,6vw,84px) 0;border-top:1px solid #d7d0c0;border-bottom:1px solid #d7d0c0;color:#153b2f}
+.mrr-remodel-feature .mrr-remodel-shell{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr);align-items:center;gap:clamp(24px,5vw,72px)}
+.mrr-remodel-feature .mrr-remodel-kicker{font-size:.79rem;letter-spacing:.18em;font-weight:800;text-transform:uppercase;color:#587461;margin:0 0 14px}
+.mrr-remodel-feature h2{font-family:Georgia,serif;font-size:clamp(2rem,4vw,3.4rem);line-height:1.1;margin:0 0 20px;color:#13392d}
+.mrr-remodel-feature .mrr-remodel-lead{font-size:clamp(1rem,1.5vw,1.15rem);line-height:1.72;max-width:710px;margin:0 0 21px}
+.mrr-remodel-feature ul{list-style:none;padding:0;margin:0 0 24px;display:grid;grid-template-columns:1fr 1fr;gap:10px 20px}
+.mrr-remodel-feature li{font-weight:700;font-size:.94rem;line-height:1.45;position:relative;padding-left:23px}
+.mrr-remodel-feature li:before{content:'✓';position:absolute;left:0;color:#47715e}
+.mrr-remodel-feature .mrr-remodel-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.mrr-remodel-feature .mrr-remodel-actions a{display:inline-flex;align-items:center;justify-content:center;min-height:47px;border-radius:6px;padding:12px 19px;text-decoration:none;font-weight:800;font-size:.89rem;letter-spacing:.03em}
+.mrr-remodel-feature .mrr-remodel-call{background:#153f31;color:#fff}
+.mrr-remodel-feature .mrr-remodel-quote{border:2px solid #153f31;color:#153f31;background:transparent}
+.mrr-remodel-feature .mrr-remodel-photo{margin:0;position:relative}
+.mrr-remodel-feature .mrr-remodel-photo img{display:block;width:100%;height:auto;aspect-ratio:5/4;object-fit:cover;border-radius:16px;box-shadow:0 16px 42px #123a2a2b}
+.mrr-remodel-feature .mrr-remodel-photo figcaption{font-size:.76rem;color:#57695e;margin-top:10px}
+@media(max-width:790px){.mrr-remodel-feature .mrr-remodel-shell{grid-template-columns:1fr}.mrr-remodel-feature ul{grid-template-columns:1fr}.mrr-remodel-feature .mrr-remodel-photo img{aspect-ratio:16/10}}

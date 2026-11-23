@@ -1,0 +1,27 @@
+
+/* Michigan RV Repair: directory-ready mobile business contact display */
+.mrr-yelp-contact{background:#f6f2e8;color:#173f32;padding:42px 0;border-top:1px solid #d8d5c9;border-bottom:1px solid #d8d5c9}
+.mrr-yelp-contact h2{color:#173f32;font-size:clamp(1.35rem,2.8vw,2.2rem);margin:8px 0 12px}
+.mrr-yelp-eyebrow{font-size:.78rem;letter-spacing:.14em;font-weight:800;color:#56735b}
+.mrr-yelp-grid,.mrr-contact-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:20px 0}
+.mrr-yelp-grid>div,.mrr-contact-cards article{background:#fff;border:1px solid #dddcd2;padding:22px;border-radius:14px;overflow-wrap:anywhere;box-shadow:0 4px 16px #173f3210}
+.mrr-yelp-grid strong{display:block;color:#536e5c;font-size:.76rem;letter-spacing:.1em;margin-bottom:9px}
+.mrr-yelp-grid a{color:#173f32;font-size:clamp(.96rem,1.4vw,1.12rem);font-weight:700}
+.mrr-yelp-grid small{display:block;margin-top:8px;line-height:1.5}
+.mrr-yelp-more{color:#173f32;font-weight:800;text-decoration:underline;text-underline-offset:4px}
+.mrr-contact-page{background:#f6f2e8;padding:66px 0 80px;color:#173f32;min-height:65vh}
+.mrr-contact-page h1{font-size:clamp(2rem,5vw,3.8rem);line-height:1.1;margin:12px 0 18px;color:#173f32}
+.mrr-contact-intro{max-width:750px;line-height:1.7;font-size:1.12rem}
+.mrr-contact-cards article h2{font-size:1.16rem;margin:0 0 14px;color:#173f32}
+.mrr-contact-cards article a{color:#173f32;font-weight:800}
+.mrr-contact-cards article p{line-height:1.6}
+.mrr-contact-cards article em{font-size:.85rem;color:#5d6b62}
+.mrr-contact-action{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0 45px}
+.mrr-contact-action a{display:inline-block;text-decoration:none;padding:14px 22px;font-weight:800;border-radius:8px}
+.mrr-contact-primary{background:#173f32;color:#fff!important}.mrr-contact-secondary{border:2px solid #173f32;color:#173f32!important}
+.mrr-contact-note{padding:22px 28px;background:#e7ebe4;border-left:4px solid #173f32;border-radius:8px;max-width:850px}
+.mrr-contact-note h2{font-size:1.2rem;color:#173f32}
+.mrr-contact-note p{line-height:1.75}
+.footer-phone{margin:8px 0 2px}
+.footer-phone a{color:inherit}
+@media(max-width:760px){.mrr-yelp-grid,.mrr-contact-cards{grid-template-columns:1fr}.mrr-yelp-contact{padding:32px 0}.mrr-contact-page{padding:40px 0 55px}}

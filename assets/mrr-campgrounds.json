@@ -1,0 +1,120 @@
+[
+  {
+    "name": "Lower Pines Campground",
+    "state": "CA",
+    "region": "Yosemite Valley, California",
+    "style": "Rustic",
+    "tags": [
+      "No hookups",
+      "Flush toilets (seasonal)",
+      "Shuttle access"
+    ],
+    "features": [
+      "nature",
+      "restrooms"
+    ],
+    "url": "https://www.nps.gov/yose/planyourvisit/pinescampgrounds.htm",
+    "note": "No electric hookups. Seasonal; confirm operating dates.",
+    "source": "National Park Service"
+  },
+  {
+    "name": "Blackwoods Campground",
+    "state": "ME",
+    "region": "Acadia National Park, Maine",
+    "style": "Rustic",
+    "tags": [
+      "No hookups",
+      "Flush toilets (seasonal)",
+      "Dump station (seasonal)"
+    ],
+    "features": [
+      "nature",
+      "restrooms",
+      "dump"
+    ],
+    "url": "https://www.nps.gov/acad/planyourvisit/blackwoods-campground.htm",
+    "note": "Shower facilities not provided on site. Seasonal.",
+    "source": "National Park Service"
+  },
+  {
+    "name": "Seawall Campground",
+    "state": "ME",
+    "region": "Acadia National Park, Maine",
+    "style": "Rustic",
+    "tags": [
+      "No hookups",
+      "Near coastline",
+      "Dump station (seasonal)"
+    ],
+    "features": [
+      "nature",
+      "restrooms",
+      "dump"
+    ],
+    "url": "https://www.nps.gov/acad/planyourvisit/seawall-campground.htm",
+    "note": "No RV hookups, no onsite showers. Seasonal.",
+    "source": "National Park Service"
+  },
+  {
+    "name": "Schoodic Woods Campground",
+    "state": "ME",
+    "region": "Acadia National Park, Maine",
+    "style": "Comfort",
+    "tags": [
+      "Electric RV sites",
+      "Water on select sites",
+      "Dump station"
+    ],
+    "features": [
+      "electric",
+      "water",
+      "restrooms",
+      "dump"
+    ],
+    "url": "https://www.nps.gov/acad/planyourvisit/schoodic-woods-campground.htm",
+    "note": "RV electric, plus water hookups on selected sites. Seasonal.",
+    "source": "National Park Service"
+  },
+  {
+    "name": "Watchman Campground",
+    "state": "UT",
+    "region": "Zion National Park, Utah",
+    "style": "Comfort",
+    "tags": [
+      "Electric on select sites",
+      "Flush toilets",
+      "Dump station"
+    ],
+    "features": [
+      "electric",
+      "restrooms",
+      "dump",
+      "nature"
+    ],
+    "url": "https://www.nps.gov/zion/planyourvisit/watchman-campground.htm",
+    "note": "Not full hookups; no campground showers. Reservations required.",
+    "source": "National Park Service"
+  },
+  {
+    "name": "Sun Outdoors Petoskey Bay Harbor",
+    "state": "MI",
+    "region": "Petoskey, Michigan",
+    "style": "Resort",
+    "tags": [
+      "Pool & spa",
+      "Wi-Fi",
+      "Showers",
+      "Pickleball"
+    ],
+    "features": [
+      "pool",
+      "wifi",
+      "showers",
+      "restrooms",
+      "recreation"
+    ],
+    "url": "https://www.sunoutdoors.com/michigan/sun-outdoors-petoskey-bay-harbor",
+    "note": "Seasonal private RV resort. Check site type and exact amenities.",
+    "source": "Operator website"
+  }
+]

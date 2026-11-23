@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://michigan-rv-repair.com/sitemap.xml
