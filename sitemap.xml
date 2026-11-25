@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://michigan-rv-repair.com/</loc></url>
+<url><loc>https://michigan-rv-repair.com/</loc><lastmod>2026-11-25</lastmod></url>
 <url><loc>https://michigan-rv-repair.com/services/</loc></url>
 <url><loc>https://michigan-rv-repair.com/services/rv-electrical-repair/</loc></url>
 <url><loc>https://michigan-rv-repair.com/services/rv-plumbing-repair/</loc></url>
@@ -53,22 +53,28 @@
   <url><loc>https://michigan-rv-repair.com/university/institutional-partnerships/courses/mrr-rf103/</loc></url>
   <url><loc>https://michigan-rv-repair.com/university/institutional-partnerships/courses/mrr-hv104/</loc></url>
   <url><loc>https://michigan-rv-repair.com/university/institutional-partnerships/courses/mrr-dg105/</loc></url>
-<url><loc>https://michigan-rv-repair.com/explore/</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://michigan-rv-repair.com/explore/</loc><lastmod>2026-11-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://michigan-rv-repair.com/protection/</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-<url><loc>https://michigan-rv-repair.com/shop/</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://michigan-rv-repair.com/shop/</loc><lastmod>2026-11-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://michigan-rv-repair.com/campgrounds/</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://michigan-rv-repair.com/community/</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://michigan-rv-repair.com/build-your-rv/</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://michigan-rv-repair.com/news/</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://michigan-rv-repair.com/news/rv-tech/</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://michigan-rv-repair.com/news/rv-travel/</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://michigan-rv-repair.com/news/rv-travel/</loc><lastmod>2026-11-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://michigan-rv-repair.com/news/rv-tech/portable-power-checklist/</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://michigan-rv-repair.com/news/rv-travel/choose-a-campground/</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://michigan-rv-repair.com/network/</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://michigan-rv-repair.com/partners/</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://michigan-rv-repair.com/partners/</loc><lastmod>2026-11-25</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://michigan-rv-repair.com/campgrounds/data-sources/</loc></url>
 <url><loc>https://michigan-rv-repair.com/campgrounds/michigan/</loc></url>
 <url><loc>https://michigan-rv-repair.com/roadlife/</loc><lastmod>2026-11-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://michigan-rv-repair.com/roadlife/privacy/</loc></url>
 <url><loc>https://michigan-rv-repair.com/roadlife/terms/</loc></url>
-<url><loc>https://michigan-rv-repair.com/roadlife/savings/</loc></url><url><loc>https://michigan-rv-repair.com/roadlife/annual-care/</loc></url></urlset>
+<url><loc>https://michigan-rv-repair.com/roadlife/savings/</loc></url><url><loc>https://michigan-rv-repair.com/roadlife/annual-care/</loc></url>
+<url><loc>https://michigan-rv-repair.com/rv-rentals/</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://michigan-rv-repair.com/rv-rentals/rvshare/</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://michigan-rv-repair.com/rv-rentals/outdoorsy/</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://michigan-rv-repair.com/rv-parts/rv-parts-giant/</loc><lastmod>2026-11-25</lastmod></url>
+<url><loc>https://michigan-rv-repair.com/rv-parts/etrailer/</loc><lastmod>2026-11-25</lastmod></url>
+</urlset>
