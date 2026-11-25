@@ -41,3 +41,6 @@
  const show=()=>{$$('.mrr-step',builder).forEach((x,i)=>x.classList.toggle('active',i===step));$$('#mrr-builder-progress span').forEach((x,i)=>x.classList.toggle('current',i===step));$('#mrr-build-back').disabled=step===0;$('#mrr-build-next').hidden=step===4;summary();};
  builder.addEventListener('input',summary);builder.addEventListener('change',summary);$('#mrr-build-back').addEventListener('click',()=>{step=Math.max(0,step-1);show();});$('#mrr-build-next').addEventListener('click',()=>{step=Math.min(4,step+1);show();});$('#mrr-build-download').addEventListener('click',()=>{const blob=new Blob([summary()],{type:'text/plain;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='MRR-Custom-RV-Concept.txt';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500);});show();}
 })();
+
+/* Load the first-party event hook only on pages with known referral links. */
+(()=>{if(!document.querySelector('a[rel~="sponsored"]'))return;const s=document.createElement('script');s.src='/assets/mrr-referral-events.js';s.defer=true;document.head.appendChild(s);})();
