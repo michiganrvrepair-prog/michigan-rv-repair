@@ -231,24 +231,25 @@ h1,h2,h3{letter-spacing:-.025em}h2{font-weight:900}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.mrr-seo-skip-link{transition:none}}
 @media print{body:has(.mrr-article) .masthead,body:has(.mrr-article) .topline,body:has(.mrr-article) footer,body:has(.mrr-article) .mrr-mobile-contact,body:has(.mrr-article) .mrr-seo-skip-link{display:none!important}body:has(.mrr-article){background:#fff;color:#000}body:has(.mrr-article) .mrr-article{max-width:none;color:#000}body:has(.mrr-article) .mrr-article h2{break-after:avoid}}
 
-/* Organized MRR navigation — use the existing document-match visual system. */
-.mainnav.mrr-nav.mrr-nav-organized{display:flex;align-items:center;flex-wrap:wrap;justify-content:flex-end;min-width:0;position:relative}
+/* MRR navigation: branded oval controls, consistent spacing and responsive wrapping. */
+.mainnav.mrr-nav.mrr-nav-organized{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:7px!important;min-width:0;position:relative}
 .mrr-nav-organized .mrr-nav-group{position:relative;margin:0;padding:0;background:transparent;border:0;border-radius:0;box-shadow:none;min-width:0}
 .mrr-nav-organized .mrr-nav-group[open]{z-index:80}
-.mrr-nav-organized .mrr-nav-group>summary{display:flex;align-items:center;gap:5px;list-style:none;cursor:pointer;color:var(--pine);font-family:inherit;font-size:.76rem;font-weight:800;line-height:1.65;letter-spacing:.065em;text-transform:uppercase;white-space:nowrap;padding:10px 0;background:transparent;border:0;border-radius:0}
+.mrr-nav-organized .mrr-nav-group>summary,.mainnav.mrr-nav.mrr-nav-organized>a.mrr-nav-payment,.mainnav.mrr-nav.mrr-nav-organized>a.nav-btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:42px;padding:10px 13px!important;border:1px solid var(--pine);border-radius:999px;background:transparent;color:var(--pine);font-family:inherit;font-size:.72rem!important;font-weight:800;line-height:1.3;letter-spacing:.045em;text-transform:uppercase;white-space:nowrap;text-decoration:none;cursor:pointer;transition:background-color .15s ease,color .15s ease,border-color .15s ease}
+.mrr-nav-organized .mrr-nav-group>summary{list-style:none}
 .mrr-nav-organized .mrr-nav-group>summary::-webkit-details-marker{display:none}
-.mrr-nav-organized .mrr-nav-group>summary span{font-size:.7em;color:var(--sage)}
+.mrr-nav-organized .mrr-nav-group>summary span{font-size:.75em;color:inherit}
 .mrr-nav-organized .mrr-nav-group[open]>summary span{transform:rotate(180deg)}
-.mrr-nav-organized .mrr-nav-group[open]>summary,.mrr-nav-organized .mrr-nav-group>summary:hover,.mrr-nav-organized .mrr-nav-payment:hover{text-decoration:underline;text-underline-offset:4px}
-.mrr-nav-organized .mrr-nav-panel{position:absolute;top:100%;right:0;width:270px;max-width:calc(100vw - 36px);max-height:min(65vh,480px);overflow:auto;overscroll-behavior:contain;background:#fffefa;border:1px solid var(--line);border-top:4px solid var(--pine);border-radius:0;padding:0;box-shadow:none;display:block;z-index:90}
+.mrr-nav-organized .mrr-nav-group[open]>summary,.mrr-nav-organized .mrr-nav-group>summary:hover,.mainnav.mrr-nav.mrr-nav-organized>a.mrr-nav-payment:hover,.mainnav.mrr-nav.mrr-nav-organized>a.mrr-nav-payment[aria-current="page"]{background:var(--pine);color:#fff;text-decoration:none}
+.mainnav.mrr-nav.mrr-nav-organized>a.nav-btn{background:var(--pine);color:#fff!important;padding-inline:16px!important}
+.mainnav.mrr-nav.mrr-nav-organized>a.nav-btn:hover{background:var(--deep);border-color:var(--deep);text-decoration:none}
+.mrr-nav-organized .mrr-nav-panel{position:absolute;top:calc(100% + 6px);right:0;width:270px;max-width:calc(100vw - 36px);max-height:min(65vh,480px);overflow:auto;overscroll-behavior:contain;background:#fffefa;border:1px solid var(--line);border-radius:18px;padding:8px;box-shadow:0 8px 22px #173f3214;display:grid;gap:3px;z-index:90}
 .mrr-nav-organized .mrr-nav-group:not([open])>.mrr-nav-panel{display:none}
 .mrr-nav-organized .mrr-nav-group:first-child .mrr-nav-panel{left:0;right:auto}
-.mrr-nav-organized .mrr-nav-panel a{display:block;white-space:normal;text-transform:none;letter-spacing:.015em;font-size:.84rem;line-height:1.45;padding:10px 15px;border-bottom:1px solid var(--line);border-radius:0;text-decoration:none;color:var(--pine)}
-.mrr-nav-organized .mrr-nav-panel a:last-child{border-bottom:0}
-.mrr-nav-organized .mrr-nav-panel a:hover,.mrr-nav-organized .mrr-nav-panel a[aria-current="page"]{background:#eae4d9;text-decoration:underline;text-underline-offset:3px}
-.mrr-nav-organized .mrr-nav-payment{display:inline-flex;align-items:center;padding:10px 0;border:0;border-radius:0;background:transparent;text-decoration:none}
+.mrr-nav-organized .mrr-nav-panel a{display:flex;align-items:center;min-height:40px;white-space:normal;overflow-wrap:anywhere;text-transform:none;letter-spacing:.015em;font-size:.84rem;line-height:1.4;padding:9px 13px;border:1px solid transparent;border-radius:999px;background:transparent;text-decoration:none;color:var(--pine)}
+.mrr-nav-organized .mrr-nav-panel a:hover,.mrr-nav-organized .mrr-nav-panel a[aria-current="page"]{background:var(--ivory);border-color:var(--line);text-decoration:none}
 .mrr-nav-organized a:focus-visible,.mrr-nav-organized summary:focus-visible{outline:2px solid var(--pine);outline-offset:3px}
 .mrr-nav-organized .mrr-nav-panel a:focus-visible{outline-offset:-3px}
-@media(max-width:1150px){.mrr-nav-organized .mrr-nav-group>summary{font-size:.71rem}}
-@media(max-width:1050px){.mainnav.mrr-nav.mrr-nav-organized{justify-content:center}.mrr-nav-organized .mrr-nav-group{position:static}.mrr-nav-organized .mrr-nav-panel,.mrr-nav-organized .mrr-nav-group:first-child .mrr-nav-panel{top:100%;left:50%;right:auto;transform:translateX(-50%);width:min(100%,360px);max-height:55vh}}
-@media(max-width:620px){.mainnav.mrr-nav.mrr-nav-organized{gap:4px 12px!important}.mrr-nav-organized .mrr-nav-group>summary,.mainnav.mrr-nav.mrr-nav-organized>a:not(.nav-btn){font-size:.7rem!important;min-height:44px}.mrr-nav-organized .mrr-nav-panel a{min-height:44px}.mrr-nav-organized .nav-btn{min-height:44px}}
+@media(max-width:1150px){.masthead:has(.mrr-nav-organized) .masthead-in{flex-direction:column;align-items:center;gap:12px;padding-block:15px}.mainnav.mrr-nav.mrr-nav-organized{justify-content:center}.mrr-nav-organized .mrr-nav-group{position:static}.mrr-nav-organized .mrr-nav-panel,.mrr-nav-organized .mrr-nav-group:first-child .mrr-nav-panel{top:calc(100% + 6px);left:50%;right:auto;transform:translateX(-50%);width:min(100%,360px);max-height:55vh}}
+@media(max-width:620px){.mainnav.mrr-nav.mrr-nav-organized{gap:7px!important}.mrr-nav-organized .mrr-nav-group>summary,.mainnav.mrr-nav.mrr-nav-organized>a.mrr-nav-payment,.mainnav.mrr-nav.mrr-nav-organized>a.nav-btn{font-size:.7rem!important;min-height:44px;padding:10px 12px!important}.mrr-nav-organized .mrr-nav-panel a{min-height:44px}}
+@media(prefers-reduced-motion:reduce){.mrr-nav-organized .mrr-nav-group>summary,.mainnav.mrr-nav.mrr-nav-organized>a{transition:none}}
