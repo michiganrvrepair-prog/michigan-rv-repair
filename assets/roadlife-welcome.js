@@ -15,5 +15,9 @@ function handleKey(e){if(!opened)return;if(e.key==='Escape'){e.preventDefault();
 for(const node of dialog.querySelectorAll('[data-welcome-close]'))node.addEventListener('click',hide);
 dialog.addEventListener('click',e=>{if(e.target===dialog)hide()});
 document.addEventListener('keydown',handleKey);
-window.setTimeout(show,2200);
+// Keep the welcome invitation optional; wait for meaningful engagement instead of interrupting entry.
+let eligible=false;
+function maybeShow(){if(eligible&&window.scrollY>Math.max(400,window.innerHeight*0.75)&&document.visibilityState==='visible'){window.removeEventListener('scroll',maybeShow);show();}}
+window.addEventListener('scroll',maybeShow,{passive:true});
+window.setTimeout(()=>{eligible=true;maybeShow();},20000);
 })();
